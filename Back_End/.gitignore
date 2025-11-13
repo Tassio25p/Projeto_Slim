@@ -1,0 +1,26 @@
+# Ignorar dependências do Composer
+/vendor/
+
+# Ignorar arquivos de configuração local
+.env
+.env.local
+.env.*
+
+# Ignorar cache do Slim, logs e sessões
+/cache/
+logs/
+*.log
+
+# Ignorar arquivos temporários
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Ignorar arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignorar backups e diretórios de build
+/build/
+node_modules/

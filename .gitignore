@@ -1,0 +1,15 @@
+# Ignorar dependências do back-end
+/Back_End/vendor/
+/Back_End/composer.lock
+/Back_End/.env
+
+# Ignorar logs e caches
+*.log
+*.cache
+
+# Ignorar arquivos temporários do sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar configurações locais
+.vscode/
